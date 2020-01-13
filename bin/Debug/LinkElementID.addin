@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>LinkElementID</Name>
+    <Assembly>LinkElementID\LinkElementID.dll</Assembly>
+    <FullClassName>LinkElementID.App</FullClassName>
+    <ClientId>3256F49C-7F76-4734-7792-3F1CF468BE9B</ClientId>
+    <VendorId>ENG</VendorId>
+    <VendorDescription>ENGworks, http://www.engworks.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
