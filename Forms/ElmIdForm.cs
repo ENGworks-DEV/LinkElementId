@@ -85,7 +85,13 @@ namespace LinkElementID
 
             linkedelement = docLinked.GetElement(refElemLinked.LinkedElementId);
 
-            IdBox.Text = linkedelement.Id.ToString();
+                IdBox.Text = linkedelement.Id.ToString();
+                NameBox.Text = docLinked.Title.ToString();
+                CategoryBox.Text = linkedelement.Category.Name.ToString();
+
+                Parameter abbreviationParam = linkedelement.LookupParameter(BuiltInParameter.RBS_SYSTEM_ABBREVIATION_PARAM.ToString());
+                if (abbreviationParam != null)
+                    AbbreviationBox.Text = abbreviationParam.AsValueString();//RBS_SYSTEM_ABBREVIATION_PARAM
             }
 
             base.ShowDialog();
