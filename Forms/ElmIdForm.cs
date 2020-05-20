@@ -30,6 +30,12 @@ namespace LinkElementID
         private const string Caption = "Interval elapsed.  Continue running?";
         private static readonly Timer _Timer = new Timer();
 
+        public string projectVersion = CommonAssemblyInfo.Number;
+        public string ProjectVersion
+        {
+            get { return projectVersion; }
+            set { projectVersion = value; }
+        }
 
         public ElmIdForm(ExternalCommandData cmddata_p, Document IntDocument)
         {
@@ -39,11 +45,11 @@ namespace LinkElementID
             uidoc = uiapp.ActiveUIDocument;
             Autodesk.Revit.ApplicationServices.Application app = uiapp.Application;
             _doc = IntDocument;
-
+            //projectVersion = CommonAssemblyInfo.Number;
             InitializeComponent();
-
-
-
+            //projectVersion = CommonAssemblyInfo.Number;
+            //TextVersion.Text = CommonAssemblyInfo.Number;
+            this.DataContext = this;
         }
 
         /// <summary>

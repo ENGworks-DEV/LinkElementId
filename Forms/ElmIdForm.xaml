@@ -75,8 +75,21 @@
 
 
             <!--Title Bar elements-->
-            <TextBlock x:Name="TextTitle" Grid.Column="1" HorizontalAlignment="Left" Margin="7,12,0,0" TextWrapping="Wrap" Text="Link Element Info" Width="133" FontFamily="Roboto Bold" FontSize="18" Focusable="False" AllowDrop="False" Foreground="Black" Height="23" VerticalAlignment="Top"/>
-            <Button Style="{DynamicResource CloseButtonStyle}" Name="CloseButton" Foreground="Black" BorderThickness="0" Click="Close_Click" Background="Transparent" VerticalAlignment="Top" Grid.Column="2" Height="21" FontSize="16" FontWeight="Bold" Margin="4,12,11,0">X</Button>
+            <TextBlock x:Name="TextTitle" Grid.Column="1" HorizontalAlignment="Left" Margin="5,10,0,0" TextWrapping="Wrap" Text="Link Element Info" Width="133" FontFamily="Roboto Bold" FontSize="18" Focusable="False" AllowDrop="False" Foreground="Black" Height="23" VerticalAlignment="Top"/>
+            <TextBlock x:Name="TextVersion" 
+                       HorizontalAlignment="Left" 
+                       Margin="5,30,0,0" 
+                       TextWrapping="Wrap" 
+                       Text="{Binding Path=ProjectVersion}" 
+                       Width="61" 
+                       FontFamily="Roboto light" 
+                       FontSize="12" 
+                       Focusable="False" 
+                       AllowDrop="False" 
+                       Foreground="LightGray"  
+                       Height="16" 
+                       VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+            <Button Style="{DynamicResource CloseButtonStyle}" Name="CloseButton" Foreground="Black" BorderThickness="0" Click="Close_Click" Background="Transparent" VerticalAlignment="Top" Grid.Column="2" Height="21" FontSize="16" FontWeight="Bold" Margin="15,12,0,0">X</Button>
 
             <Button Style="{DynamicResource MainButtonStyle}" x:Name="buttonCopy" Grid.Column="1" HorizontalAlignment="Left" Margin="197,84,0,0" VerticalAlignment="Top" Width="31" Height="28" Foreground="White" Background="White" BorderThickness="0.6" Click="Copy_Click" Grid.ColumnSpan="2" ToolTip="Copy to clipboard">
                 <Image Source="/LinkElementID;component/Resources/download.png" Height="24" Width="18" Opacity="0.9" Margin="-1,0,2,0" Stretch="UniformToFill" StretchDirection="DownOnly"/>
