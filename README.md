@@ -1,6 +1,6 @@
 # LinkElementId
 
-<img src="https://github.com/ENGworks-DEV/LinkElementId/blob/master/Resources/LinkElementIDLogo.png" width="265" height="120">
+<img src="https://github.com/ENGworks-DEV/LinkElementId/blob/master/Resources/LinkElementIDLogo.png" width="50" height="50">
 
 This is a Revit add-in that get Link´s Info
 
