@@ -1,0 +1,11 @@
+C:\Users\vnoves\source\repos\LinkElementId\obj\2020\UIL\ElmIdForm.g.cs
+C:\Users\vnoves\source\repos\LinkElementId\obj\2020\UIL\Resources.g.cs
+C:\Users\vnoves\source\repos\LinkElementId\obj\2020\LinkElementID_MarkupCompile.cache
+C:\Users\vnoves\source\repos\LinkElementId\obj\2020\LinkElementID_MarkupCompile.lref
+C:\Users\vnoves\source\repos\LinkElementId\bin\2020\LinkElementID.dll.config
+C:\Users\vnoves\source\repos\LinkElementId\bin\2020\LinkElementID.dll
+C:\Users\vnoves\source\repos\LinkElementId\obj\2020\UIL\ElmIdForm.baml
+C:\Users\vnoves\source\repos\LinkElementId\obj\2020\UIL\Resources.baml
+C:\Users\vnoves\source\repos\LinkElementId\obj\2020\LinkElementID.g.resources
+C:\Users\vnoves\source\repos\LinkElementId\obj\2020\LinkElementID.csproj.CoreCompileInputs.cache
+C:\Users\vnoves\source\repos\LinkElementId\obj\2020\LinkElementID.dll

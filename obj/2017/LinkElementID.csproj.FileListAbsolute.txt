@@ -1,0 +1,12 @@
+C:\Users\vnoves\source\repos\LinkElementId\obj\2017\UIL\ElmIdForm.g.cs
+C:\Users\vnoves\source\repos\LinkElementId\obj\2017\UIL\Resources.g.cs
+C:\Users\vnoves\source\repos\LinkElementId\obj\2017\LinkElementID_MarkupCompile.cache
+C:\Users\vnoves\source\repos\LinkElementId\obj\2017\LinkElementID_MarkupCompile.lref
+C:\Users\vnoves\source\repos\LinkElementId\bin\2017\LinkElementID.dll.config
+C:\Users\vnoves\source\repos\LinkElementId\bin\2017\LinkElementID.dll
+C:\Users\vnoves\source\repos\LinkElementId\obj\2017\UIL\ElmIdForm.baml
+C:\Users\vnoves\source\repos\LinkElementId\obj\2017\UIL\Resources.baml
+C:\Users\vnoves\source\repos\LinkElementId\obj\2017\LinkElementID.g.resources
+C:\Users\vnoves\source\repos\LinkElementId\obj\2017\LinkElementID.csproj.CoreCompileInputs.cache
+C:\Users\vnoves\source\repos\LinkElementId\obj\2017\LinkElementID.dll
+C:\Users\vnoves\source\repos\LinkElementId\obj\2017\LinkElementID.csprojAssemblyReference.cache
