@@ -18,7 +18,7 @@ You can find this addin inside Autodesk app store
 
 ## Contribute ##
 
-Finder is an open-source project. You can make suggestions or track and submit bugs via Github issues.  You can submit your own code to the Finder project via a Github pull request.
+LinkElementId is an open-source project. You can make suggestions or track and submit bugs via Github issues.  You can submit your own code to the LinkElementId project via a Github pull request.
 
 ## License ##
 
