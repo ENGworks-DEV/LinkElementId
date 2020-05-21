@@ -42,19 +42,19 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="Command.cs" />
-    <Compile Include="Common\CommonAssemblyInfo.cs" />
-    <Compile Include="Forms\ElmIdForm.cs" />
-    <Compile Include="NumberMain.cs" />
+    <Compile Include="Domain\Common\CommonAssemblyInfo.cs" />
+    <Compile Include="UIL\Forms\ElmIdForm.cs" />
+    <Compile Include="Core\NumberMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Forms\Resources.xaml.cs" />
-    <Compile Include="StyleableWindow\ControlDoubleClickBehavior.cs" />
-    <Compile Include="StyleableWindow\ShowSystemMenuBehavior.cs" />
-    <Compile Include="StyleableWindow\SystemMenuManager.cs" />
-    <Compile Include="StyleableWindow\WindowCloseCommand.cs" />
-    <Compile Include="StyleableWindow\WindowDragBehavior.cs" />
-    <Compile Include="StyleableWindow\WindowMaximizeCommand.cs" />
-    <Compile Include="StyleableWindow\WindowMinimizeCommand.cs" />
-    <Compile Include="StyleableWindow\WindowResizeBehavior.cs" />
+    <Compile Include="UIL\Forms\Resources.xaml.cs" />
+    <Compile Include="UIL\StyleableWindow\ControlDoubleClickBehavior.cs" />
+    <Compile Include="UIL\StyleableWindow\ShowSystemMenuBehavior.cs" />
+    <Compile Include="UIL\StyleableWindow\SystemMenuManager.cs" />
+    <Compile Include="UIL\StyleableWindow\WindowCloseCommand.cs" />
+    <Compile Include="UIL\StyleableWindow\WindowDragBehavior.cs" />
+    <Compile Include="UIL\StyleableWindow\WindowMaximizeCommand.cs" />
+    <Compile Include="UIL\StyleableWindow\WindowMinimizeCommand.cs" />
+    <Compile Include="UIL\StyleableWindow\WindowResizeBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="LinkElementID.addin" />
@@ -87,17 +87,20 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Page Include="Forms\ElmIdForm.xaml">
+    <Page Include="UIL\Forms\ElmIdForm.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Forms\Resources.xaml">
+    <Page Include="UIL\Forms\Resources.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>if exist "$(AppData)\Autodesk\REVIT\Addins\2019" copy "$(ProjectDir)*.addin" "$(AppData)\Autodesk\REVIT\Addins\2019"
-if exist "$(AppData)\Autodesk\REVIT\Addins\2019" copy "$(ProjectDir)$(OutputPath)*.dll" "$(AppData)\Autodesk\REVIT\Addins\2019\LinkElementID"</PostBuildEvent>
+if exist "$(AppData)\Autodesk\REVIT\Addins\2019" copy "$(ProjectDir)$(OutputPath)*.dll" "$(AppData)\Autodesk\REVIT\Addins\2019\LinkElementID"
+
+if not $(ConfigurationName) == Debug if exist "$(ProjectDir)\Engworks.pfx" "C:\Program Files (x86)\Windows Kits\10\App Certification Kit\signtool.exe" sign /f  "$(ProjectDir)\Engworks.pfx" /p YourPassHere. /t http://timestamp.verisign.com/scripts/timstamp.dll "$(ProjectDir)$(OutputPath)*.dll"
+</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
