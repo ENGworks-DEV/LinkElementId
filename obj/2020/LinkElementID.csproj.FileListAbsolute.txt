@@ -9,3 +9,6 @@ C:\Users\vnoves\source\repos\LinkElementId\obj\2020\UIL\Resources.baml
 C:\Users\vnoves\source\repos\LinkElementId\obj\2020\LinkElementID.g.resources
 C:\Users\vnoves\source\repos\LinkElementId\obj\2020\LinkElementID.csproj.CoreCompileInputs.cache
 C:\Users\vnoves\source\repos\LinkElementId\obj\2020\LinkElementID.dll
+C:\Users\vnoves\source\repos\LinkElementId\obj\2020\LinkElementID.csprojAssemblyReference.cache
+C:\Users\vnoves\source\repos\LinkElementId\obj\2020\Properties.Resources.resources
+C:\Users\vnoves\source\repos\LinkElementId\obj\2020\LinkElementID.csproj.GenerateResource.cache

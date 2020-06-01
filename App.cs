@@ -24,7 +24,7 @@ namespace LinkElementID
                 "LinkElementID.CommandLink")) as PushButton;
             pushButton.ToolTip = "LinkElementID";
             pushButton.LongDescription = "This addin allows you to get the ID of a linked element";
-            pushButton.LargeImage = this.PngImageSource("LinkElementID.Resources.LinkElementIDLogo.png");
+            pushButton.LargeImage = PngImageSource("Resources.LinkElementIDLogo.png");
             string path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             string newpath = Path.GetFullPath(Path.Combine(path, "..\\"));
             ContextualHelp contextHelp = new ContextualHelp(ContextualHelpType.Url, "https://engworks.com/LinkElementID/");
