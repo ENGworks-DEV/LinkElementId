@@ -10,7 +10,7 @@ namespace LinkElementID.Core
             RevitLinkInstance elem = _doc.GetElement(refElemLinked.ElementId) as RevitLinkInstance;
             Document docLinked = elem.GetLinkDocument();
             Element linkedelement = docLinked.GetElement(refElemLinked.LinkedElementId);
-            Parameter abbreviationParam = linkedelement.LookupParameter(BuiltInParameter.RBS_SYSTEM_ABBREVIATION_PARAM.ToString());
+            Parameter abbreviationParam = linkedelement.LookupParameter("System Abbreviation");
             if (abbreviationParam != null)
             {
                 result = abbreviationParam.AsValueString();//RBS_SYSTEM_ABBREVIATION_PARAM
