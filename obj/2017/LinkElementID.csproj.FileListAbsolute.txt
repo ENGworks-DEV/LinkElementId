@@ -10,3 +10,5 @@ C:\Users\vnoves\source\repos\LinkElementId\obj\2017\LinkElementID.g.resources
 C:\Users\vnoves\source\repos\LinkElementId\obj\2017\LinkElementID.csproj.CoreCompileInputs.cache
 C:\Users\vnoves\source\repos\LinkElementId\obj\2017\LinkElementID.dll
 C:\Users\vnoves\source\repos\LinkElementId\obj\2017\LinkElementID.csprojAssemblyReference.cache
+C:\Users\vnoves\source\repos\LinkElementID\obj\2017\Properties.Resources.resources
+C:\Users\vnoves\source\repos\LinkElementID\obj\2017\LinkElementID.csproj.GenerateResource.cache

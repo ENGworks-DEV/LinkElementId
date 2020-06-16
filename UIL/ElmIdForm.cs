@@ -65,6 +65,7 @@ namespace LinkElementID
             List<Element> RunElements = new List<Element>();
             List<ElementId> RunElementsId = new List<ElementId>();
 
+
             ObjectType obt = ObjectType.LinkedElement;
             Reference refElemLinked;
 

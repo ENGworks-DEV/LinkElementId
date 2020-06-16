@@ -13,7 +13,7 @@ namespace LinkElementID.Core
             Parameter abbreviationParam = linkedelement.LookupParameter("System Abbreviation");
             if (abbreviationParam != null)
             {
-                result = abbreviationParam.AsValueString();//RBS_SYSTEM_ABBREVIATION_PARAM
+                result = abbreviationParam.AsString();//RBS_SYSTEM_ABBREVIATION_PARAM
             }
             return result;         
         }
