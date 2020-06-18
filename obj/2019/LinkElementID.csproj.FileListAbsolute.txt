@@ -1,6 +1,5 @@
 C:\Users\vnoves\source\repos\LinkElementId\bin\2019\LinkElementID.dll.config
 C:\Users\vnoves\source\repos\LinkElementId\bin\2019\LinkElementID.dll
-C:\Users\vnoves\source\repos\LinkElementId\obj\2019\LinkElementID.csprojAssemblyReference.cache
 C:\Users\vnoves\source\repos\LinkElementId\obj\2019\UIL\ElmIdForm.g.cs
 C:\Users\vnoves\source\repos\LinkElementId\obj\2019\UIL\Resources.g.cs
 C:\Users\vnoves\source\repos\LinkElementId\obj\2019\LinkElementID_MarkupCompile.cache
